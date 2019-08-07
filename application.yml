@@ -1,28 +1,4 @@
-server:
-  port: 8082
-  
 spring:         
     datasource :
-     url: jdbc:oracle:thin:@172.22.0.59:1521/BDMIN
      username: SISCONVIR
-     password: SISCONVIR   
-     driver-class-name: oracle.jdbc.OracleDriver    
-     hikari:
-      connection-timeout: 60000
-      maximum-pool-size: 50
-  
-  
-security:
-  oauth2:
-    resource:
-      jwt:
-        key-value: |
-          -----BEGIN PUBLIC KEY-----
-          MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqyI4b4Gitauss97N1pz6
-          qBy12dry43RZkqN1SFhoxNwO0xv9JoB2AlNHfcjLdqVn3P9PmMFi3Q68SvZm/CHH
-          qcG9FL+KHVCKS8vfkBEt19M1eYZ/xL1HeD2YDRiYf9tjlgZF7IXUM7iurviFLiaG
-          5xdAH1hmNpBYe84BmAPutqmr9pHI4zEi4R2oQj2HHtIkRdm3d3rwqXULzjJRRrKZ
-          7DsLQ2XrTZ5PxlZQy5nVE2Z/cAPSIqfG2qTKl0QhNMfRtdJnUJkQtWvHvqfuYOwE
-          /vBQIOtzQh6VDT0+TmM47T3XF1oVd5FUaBTESdof+F0PtQvdJ/mfzsno4hNw8shn
-          VwIDAQAB
-          -----END PUBLIC KEY-----
+     password: SISCONVIR
